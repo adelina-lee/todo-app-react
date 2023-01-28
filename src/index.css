@@ -5,9 +5,92 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.content {
+  border: 5px solid #e6e6e6;
+  background-color: #fcfcfc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+input, button {
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input {
+  padding: 5px;
+}
+
+button {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+button.add {
+  background-color: #33f;
+  color: white;
+
+}
+
+button.edit {
+  background-color: #3c9;
+}
+
+button.delete {
+  background-color: #ccc;
+}
+
+button.save {
+  background-color: #0c3;
+}
+
+button.back {
+  background-color: blue;
+  color: white;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 5px 0;
+}
+
+td:first-child {
+  width: 100%;
+}
+
+td:last-child {
+  min-width: 180px;
+}
+
+th {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f1f2f2;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.task {
+  cursor: pointer;
 }
